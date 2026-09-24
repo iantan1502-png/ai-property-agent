@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+
+# Credentials
+credentials/
+secrets/
+*.key
+*.pem
+
+# Local configuration
+config.local.*
+*.local.json
+
+# Customer / production data
+data/
+customer-data/
+lead-data/
+
+# Logs
+logs/
+*.log
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backups
+backups/
+*.backup
+*.bak
